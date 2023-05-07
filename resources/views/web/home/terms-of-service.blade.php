@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 text-lg-end text-center">
-                        <img src="{{ asset('web_front/images/page-banner/Terms-of-Service.png') }}" alt="Infy Care" class="img-fluid" />
+                        <img src="{{ asset('web_front/images/page-banner/Terms-of-Service.png') }}" alt="clinic app" class="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -37,6 +37,7 @@
         <!-- start terms-service section -->
         <section class="terms-service-section p-t-120 p-b-120">
             <div class="container">
+                <h3>{{ __('messages.front_setting.terms_conditions') }}</h3>
                 <p>
                     {!! $frontSetting['terms_conditions'] !!}
                 </p>

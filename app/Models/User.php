@@ -144,14 +144,9 @@ class User extends Authenticatable implements HasMedia, MustVerifyEmail
 
     const LANGUAGES = [
         'ar' => 'Arabic',
-        'zh' => 'Chinese',
         'en' => 'English',
         'fr' => 'French',
-        'de' => 'German',
-        'pt' => 'Portuguese',
-        'ru' => 'Russian',
-        'es' => 'Spanish',
-        'tr' => 'Turkish',
+        
     ];
 
     const MAIN_IPD_OPD = 'IPD_OPD';
@@ -206,14 +201,8 @@ class User extends Authenticatable implements HasMedia, MustVerifyEmail
 
     const LANGUAGES_IMAGE = [
         'ar' => 'assets/img/iraq.svg',
-        'zh' => 'assets/img/china.svg',
         'en' => 'assets/img/united-states.svg',
         'fr' => 'assets/img/france.svg',
-        'de' => 'assets/img/germany.svg',
-        'pt' => 'assets/img/portugal.svg',
-        'ru' => 'assets/img/russia.svg',
-        'es' => 'assets/img/spain.svg',
-        'tr' => 'assets/img/turkey.svg',
     ];
 
     /**

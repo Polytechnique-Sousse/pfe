@@ -494,22 +494,7 @@ $smsMailMgt = getMenuLinks(\App\Models\User::MAIN_SMS_MAIL)
     </a>
 </li>
 
-{{-- Vaccination --}}
-<?php
-$vaccinationsPatient = getMenuLinks(\App\Models\User::MAIN_VACCINATION_MGT)
-?>
-@if ($vaccinationsPatient)
-    <li class="nav-item  {{ Request::is('vaccinated-patients*','vaccinations*') ? 'active' : '' }}">
-        <a class="nav-link  d-flex align-items-center py-3"
-           href="{{ $vaccinationsPatient }}">
-                <span class="aside-menu-icon pe-3 pe-3">
-                     <i class="fas fa-syringe"></i>
-                </span>
-            <span class="aside-menu-title">{{ __('messages.vaccinations') }}</span>
-            <span class="d-none">{{__('messages.vaccinated_patients')}}</span>
-        </a>
-    </li>
-@endif
+
 @endrole
 @if(Auth::user()->email_verified_at != null)
     @role('Doctor')

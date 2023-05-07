@@ -6,7 +6,7 @@
     <meta name="title" content="{{config('app.name')}}">
 
     <meta name="keywords" content="Hospital Management System"/>
-
+    <link rel="icon" href="{{ $settingValue['favicon']['value'] }}" type="image/png">
     <meta name="description" content="Hospital Management System | HMS"/>
     <meta name="author" content="hms.infyom.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -31,10 +31,10 @@
                                 </a>
                             </div>
                         @endif
-                        @if($modules['Bills'])
+                        @if($modules['Bills'] == true)
                             {{-- Bills Widget --}}
                             <div class="col-xxl-3 col-xl-4 col-sm-6 widget">
-                                <a href="{{ route('bills.index') }}" class="text-decoration-none">
+                                <a class="text-decoration-none" href="{{ route('bills.index') }}" >
                                     <div class="bg-success shadow-md rounded-10 p-xxl-10 px-5 py-10 d-flex align-items-center justify-content-between my-sm-3 my-2">
                                         <div class="bg-green-300 widget-icon rounded-10 me-2  d-flex align-items-center justify-content-center">
                                             <i class="fa-solid fa-money-bill fs-1-xl text-white"></i>

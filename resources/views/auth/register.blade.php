@@ -91,8 +91,8 @@
                         <input type="phone" class="form-control"
                                name="phone" value="{{ old('phone') }}"
                                placeholder="{{__('messages.web_contact.phone_number')}}"
-                               minlength="10"
-                               maxlength="10"
+                               minlength="8"
+                               maxlength="8"
                                onkeyup='if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,"")'
                                onkeypress='if (/\s/g.test(this.value)) this.value = this.value.replace(/\s/g,"")'
                                required>

@@ -30,12 +30,7 @@
                         {{ Form::text('currency_code', '', ['id'=>'currencyIcon','class' => 'form-control','required']) }}
                     </div>
                 </div>
-                <div class="text-muted">
-                    {{ __('messages.document.notes') }}
-                    : {{ __('messages.currency.add_currency_code_as_per_three_letter_iso_code') }}.<a
-                            href="//stripe.com/docs/currencies"
-                            target="_blank">{{ __('messages.currency.you_can_find_out_here') }}.</a>
-                </div>
+               
                 <div class="modal-footer p-0">
                     {{ Form::button(__('messages.common.save'), ['type'=>'submit','class' => 'btn btn-primary m-0','id'=>'currencySave','data-loading-text'=>"<span class='spinner-border spinner-border-sm'></span> Processing..."]) }}
                     <button type="button" aria-label="Close" class="btn btn-secondary"

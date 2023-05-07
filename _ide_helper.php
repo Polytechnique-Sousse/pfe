@@ -7,8 +7,7 @@
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
- * @author Barry vd. Heuvel <barryvdh@gmail.com>
- * @see https://github.com/barryvdh/laravel-ide-helper
+
  */
 
 namespace Illuminate\Support\Facades {

@@ -7,7 +7,7 @@
         <div class="row align-items-center">
             <div class="col-lg-1 col-4">
                 <a href="{{ url('/') }}" class="header-logo">
-                    <img src="{{ getLogoUrl() }}" alt="Infy HMS" class="img-fluid" />
+                    <img src="{{ getLogoUrl() }}" alt="Clinic App" class="img-fluid" />
                 </a>
             </div>
             <div class="col-lg-11 col-8 ps-0">
@@ -45,7 +45,6 @@
                                 <a href="{{ route('contact') }}"
                                    class="nav-link {{ Request::is('contact-us') ? 'active' : '' }}">{{ __('messages.web_home.contact') }}</a>
                             </li>
-
                             <li class="nav-item">
                                 <a class="nav-link" href="#" {{ Request::is('terms-of-service', 'privacy-policy') ? 'active' : '' }}>
                                     {{ __('messages.web_menu.our_features') }}
@@ -79,6 +78,7 @@
                                     </li>
                                 </ul>
                             </li>
+                           
                             <li class="nav-item">
 {{--                                <a class="nav-link" href="javascript:void(0)"> {{getCurrentLanguageName()}}</a>--}}
                                 <a class="nav-link" href="javascript:void(0)"> {{ __('messages.language.'.getCurrentLanguageName()) }}</a>

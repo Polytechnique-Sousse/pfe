@@ -9,7 +9,7 @@
             <div class="col-lg-4 mb-lg-0 mb-4">
                 <div class="row justify-content-between">
                     <div class="col-lg-2 mb-lg-0 mb-4">
-                        <img src="{{ getLogoUrl() }}" alt="Infy HMS" class="img-fluid" />
+                        <img src="{{ getLogoUrl() }}" alt="Clinic app" class="img-fluid" />
                     </div>
                     <div class="col-lg-10">
                         <p class="d-block text-white">

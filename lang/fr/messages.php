@@ -37,7 +37,7 @@ return [
     'packages'                => 'Paquets',
     'schedules'               => 'Des horaires',
     'schedule_label'          => 'Horaire',
-    'services'                => 'Prestations de service',
+    'services'                => 'Services',
     'accounts'                => 'Comptes',
     'payments'                => 'Paiements',
     'bills'                   => 'Factures',
@@ -1541,7 +1541,7 @@ return [
         'home_page_step_3_description'           => 'Page d\'accueil Étape 3 Description',
         'home_page_step_4_title'                 => 'Page d\'accueil Étape 4 Titre',
         'home_page_step_4_description'           => 'Page d\'accueil Étape 4 Description',
-        'terms_conditions'                       => 'termes et conditions',
+        'terms_conditions'                       => 'Termes et conditions',
         'privacy_policy'                         => 'Politique de confidentialité',
         'home_page_certified_doctor_image'       => 'Page d\'accueil Image de médecin certifié',
         'home_page_certified_doctor_text'        => 'Page d\'accueil Texte du médecin certifié',
@@ -1560,7 +1560,7 @@ return [
 
     'web_home' => [
         'home'                                               => 'Accueil',
-        'services'                                           => 'Prestations de service',
+        'services'                                           => 'Services',
         'doctors'                                            => 'Médecins',
         'about_us'                                           => 'À propos de nous',
         'contact'                                            => 'Contact',
@@ -1618,7 +1618,7 @@ return [
     ],
 
     'web_menu' => [
-        'about'                  => 'Sur',
+        'about'                  => 'À propos',
         'our_features'           => 'Nos fonctionnalités',
         'appointment'            => 'Rendez-vous',
         'working_hours'          => 'Heures d\'ouverture',

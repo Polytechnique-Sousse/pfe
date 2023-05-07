@@ -750,12 +750,6 @@
         {{ __('messages.hospital_schedule') }}
     </a>
 </li>
-<li class="nav-item position-relative mx-xl-3 mb-3 mb-xl-0  {{ (Request::is('settings*', 'currency-settings*', 'hospital-schedules')) ? '' : 'd-none' }} ">
-    <a class="nav-link p-0 {{ (isset($sectionName) && $sectionName == 'sidebar-setting') ? 'active' : '' }}"
-       href="{{ route('settings.edit', ['section' => 'sidebar-setting']) }}">
-        {{ __('messages.sidebar_setting') }}
-    </a>
-</li>
 <li class="nav-item position-relative mx-xl-3 mb-3 mb-xl-0  {{ (Request::is('settings*', 'currency-settings*','hospital-schedules')) ? '' : 'd-none' }} ">
     <a class="nav-link p-0 {{ Request::is('currency-settings*') ? 'active' : '' }}"
        href="{{ route('currency-settings.index') }}">

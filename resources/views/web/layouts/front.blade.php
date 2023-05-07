@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="title" content="{{config('app.name')}}">
 
-    <meta name="keywords" content="Hospital Management System"/>
+    <meta name="keywords" content="Clinique Management System"/>
 
-    <meta name="description" content="Hospital Management System | HMS"/>
+    <meta name="description" content="Clinique Management System"/>
     <meta name="author" content="{{getAppName()}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="{{mix('css/front-third-party.css')}}">
     <link rel="stylesheet" href="{{mix('css/front-pages.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"/>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     @yield('page_css')
     @yield('css')
 <!-- Links of JS files -->
