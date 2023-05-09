@@ -7,8 +7,8 @@
 
     <meta name="keywords" content="Hospital Management System"/>
     <link rel="icon" href="{{ $settingValue['favicon']['value'] }}" type="image/png">
-    <meta name="description" content="Hospital Management System | HMS"/>
-    <meta name="author" content="hms.infyom.com">
+    <meta name="description" content="Hospital Management System | ClinicApp"/>
+    <meta name="author" content="ClinicApp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>404 Not Found | {{ config('app.name') }}</title>

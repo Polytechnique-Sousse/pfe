@@ -101,7 +101,7 @@ return [
         'facebook' => 'Facebook',
         'linkedin' => 'Linkedin',
         'github' => 'Github',
-        'made_with_by_infyOm_technologies' => 'Fabriqué avec par InfyOm Technologies',
+        'made_with_by_ClinicApp_technologies' => 'Fabriqué avec par ClinicApp Technologies',
         'we_are_group' => 'Nous sommes un groupe de nerds créatifs qui créent des trucs géniaux pour le Web et le mobile. Nous aimons juste
                  contribuer aux technologies open source. Nous essayons toujours de créer quelque chose qui aide les développeurs à
                  gagner du temps. afin qu\'ils puissent passer un peu plus de temps avec leurs amis et leur famille. ',

@@ -64,8 +64,6 @@ mix.copyDirectory('node_modules/intl-tel-input/build/img',
 // // Compile CSS
 // mix.sass('resources/assets/sass/bootstrap.scss',
 //     'public/assets/css/bootstrap.css').
-//     sass('resources/assets/sass/infy-loader.scss',
-//         'public/assets/css/infy-loader.css').
 //     sass('resources/assets/sass/custom.scss', 'public/assets/css/custom.css').
 //     sass('resources/assets/sass/dark-custom.scss', 'public/assets/css/dark-custom.css').
 //     sass('resources/assets/sass/home_custom.scss',

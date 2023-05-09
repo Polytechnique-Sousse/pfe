@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 text-lg-end text-center">
-                        <img src="{{ asset('web_front/images/page-banner/contact.png') }}" alt="Infy Care" class="img-fluid" />
+                        <img src="{{ asset('web_front/images/page-banner/contact.png') }}" alt="ClinicApp" class="img-fluid" />
                     </div>
                 </div>
             </div>
