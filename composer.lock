@@ -2290,36 +2290,36 @@
             "time": "2023-03-19T18:16:45+00:00"
         },
         {
-            "name": "infyomlabs/adminlte-templates",
+            "name": "clinicapp/adminlte-templates",
             "version": "v5.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InfyOmLabs/adminlte-templates.git",
+                "url": "https://github.com/clinicapp/adminlte-templates.git",
                 "reference": "a10d401a17659316a8703f30b1b66ef904f3b0a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/adminlte-templates/zipball/a10d401a17659316a8703f30b1b66ef904f3b0a3",
+                "url": "https://api.github.com/repos/clinicapp/adminlte-templates/zipball/a10d401a17659316a8703f30b1b66ef904f3b0a3",
                 "reference": "a10d401a17659316a8703f30b1b66ef904f3b0a3",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^9.0",
                 "illuminate/view": "^9.0",
-                "infyomlabs/laravel-ui-adminlte": "^5.0",
+                "clinicapp/laravel-ui-adminlte": "^5.0",
                 "php": "^8.0"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "\\InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+                        "\\clinicapp\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "InfyOm\\AdminLTETemplates\\": "src/"
+                    "clinicapp\\AdminLTETemplates\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2332,38 +2332,38 @@
                     "email": "me@mitul.me"
                 }
             ],
-            "description": "AdminLTE templates for InfyOm Laravel Generator",
+            "description": "AdminLTE templates for clinicapp Laravel Generator",
             "keywords": [
                 "AdminLTE",
                 "bootstrap",
                 "generator",
-                "infyom",
+                "clinicapp",
                 "laravel",
                 "templates"
             ],
             "support": {
-                "issues": "https://github.com/InfyOmLabs/adminlte-templates/issues",
-                "source": "https://github.com/InfyOmLabs/adminlte-templates/tree/v5.2.0"
+                "issues": "https://github.com/clinicapp/adminlte-templates/issues",
+                "source": "https://github.com/clinicapp/adminlte-templates/tree/v5.2.0"
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/infyomlabs",
+                    "url": "https://opencollective.com/clinicapp",
                     "type": "opencollective"
                 }
             ],
             "time": "2022-07-25T05:03:52+00:00"
         },
         {
-            "name": "infyomlabs/laravel-generator",
+            "name": "clinicapp/laravel-generator",
             "version": "v5.4.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InfyOmLabs/laravel-generator.git",
+                "url": "https://github.com/clinicapp/laravel-generator.git",
                 "reference": "16e8cd5ffc90951bb1b43aaa18eea5aa89be8347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/16e8cd5ffc90951bb1b43aaa18eea5aa89be8347",
+                "url": "https://api.github.com/repos/clinicapp/laravel-generator/zipball/16e8cd5ffc90951bb1b43aaa18eea5aa89be8347",
                 "reference": "16e8cd5ffc90951bb1b43aaa18eea5aa89be8347",
                 "shasum": ""
             },
@@ -2386,7 +2386,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "\\InfyOm\\Generator\\InfyOmGeneratorServiceProvider"
+                        "\\clinicapp\\Generator\\clinicappGeneratorServiceProvider"
                     ]
                 }
             },
@@ -2395,7 +2395,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "InfyOm\\Generator\\": "src/"
+                    "clinicapp\\Generator\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2408,7 +2408,7 @@
                     "email": "me@mitul.me"
                 }
             ],
-            "description": "InfyOm Laravel Generator",
+            "description": "clinicapp Laravel Generator",
             "keywords": [
                 "api",
                 "crud",
@@ -2423,28 +2423,28 @@
                 "view"
             ],
             "support": {
-                "issues": "https://github.com/InfyOmLabs/laravel-generator/issues",
-                "source": "https://github.com/InfyOmLabs/laravel-generator/tree/v5.4.2"
+                "issues": "https://github.com/clinicapp/laravel-generator/issues",
+                "source": "https://github.com/clinicapp/laravel-generator/tree/v5.4.2"
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/infyomlabs",
+                    "url": "https://opencollective.com/clinicapp",
                     "type": "opencollective"
                 }
             ],
             "time": "2022-12-22T04:56:13+00:00"
         },
         {
-            "name": "infyomlabs/laravel-generator-helpers",
+            "name": "clinicapp/laravel-generator-helpers",
             "version": "v4.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InfyOmLabs/laravel-generator-helpers.git",
+                "url": "https://github.com/clinicapp/laravel-generator-helpers.git",
                 "reference": "89a83f334a8cfa16bbbad2c60218c9e66536cf9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator-helpers/zipball/89a83f334a8cfa16bbbad2c60218c9e66536cf9a",
+                "url": "https://api.github.com/repos/clinicapp/laravel-generator-helpers/zipball/89a83f334a8cfa16bbbad2c60218c9e66536cf9a",
                 "reference": "89a83f334a8cfa16bbbad2c60218c9e66536cf9a",
                 "shasum": ""
             },
@@ -2455,7 +2455,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "InfyOm\\GeneratorHelpers\\": "src/"
+                    "clinicapp\\GeneratorHelpers\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2470,34 +2470,34 @@
             ],
             "description": "Helper functions for laravel generator packages",
             "support": {
-                "issues": "https://github.com/InfyOmLabs/laravel-generator-helpers/issues",
-                "source": "https://github.com/InfyOmLabs/laravel-generator-helpers/tree/v4.0.0"
+                "issues": "https://github.com/clinicapp/laravel-generator-helpers/issues",
+                "source": "https://github.com/clinicapp/laravel-generator-helpers/tree/v4.0.0"
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/infyomlabs",
+                    "url": "https://opencollective.com/clinicapp",
                     "type": "opencollective"
                 }
             ],
             "time": "2022-02-22T10:02:37+00:00"
         },
         {
-            "name": "infyomlabs/laravel-ui-adminlte",
+            "name": "clinicapp/laravel-ui-adminlte",
             "version": "v5.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InfyOmLabs/laravel-ui-adminlte.git",
+                "url": "https://github.com/clinicapp/laravel-ui-adminlte.git",
                 "reference": "61aab3f160169d56acfb91e29b66dff9cb365967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-ui-adminlte/zipball/61aab3f160169d56acfb91e29b66dff9cb365967",
+                "url": "https://api.github.com/repos/clinicapp/laravel-ui-adminlte/zipball/61aab3f160169d56acfb91e29b66dff9cb365967",
                 "reference": "61aab3f160169d56acfb91e29b66dff9cb365967",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^9.0",
-                "infyomlabs/laravel-generator-helpers": "^4.0",
+                "clinicapp/laravel-generator-helpers": "^4.0",
                 "laravel/ui": "^3.0",
                 "php": "^8.0"
             },
@@ -2505,13 +2505,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "InfyOm\\AdminLTEPreset\\AdminLTEPresetServiceProvider"
+                        "clinicapp\\AdminLTEPreset\\AdminLTEPresetServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "InfyOm\\AdminLTEPreset\\": "src/"
+                    "clinicapp\\AdminLTEPreset\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2531,12 +2531,12 @@
                 "preset"
             ],
             "support": {
-                "issues": "https://github.com/InfyOmLabs/laravel-ui-adminlte/issues",
-                "source": "https://github.com/InfyOmLabs/laravel-ui-adminlte/tree/v5.1.0"
+                "issues": "https://github.com/clinicapp/laravel-ui-adminlte/issues",
+                "source": "https://github.com/clinicapp/laravel-ui-adminlte/tree/v5.1.0"
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/infyomlabs",
+                    "url": "https://opencollective.com/clinicapp",
                     "type": "opencollective"
                 }
             ],
@@ -6298,12 +6298,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/InfyOmLabs/laravel-livewire-tables.git",
+                "url": "https://github.com/clinicapp/laravel-livewire-tables.git",
                 "reference": "5524f8e344a7ecccdfb8485210e266fa3d66d639"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-livewire-tables/zipball/5524f8e344a7ecccdfb8485210e266fa3d66d639",
+                "url": "https://api.github.com/repos/clinicapp/laravel-livewire-tables/zipball/5524f8e344a7ecccdfb8485210e266fa3d66d639",
                 "reference": "5524f8e344a7ecccdfb8485210e266fa3d66d639",
                 "shasum": ""
             },
@@ -6369,7 +6369,7 @@
                 "tables"
             ],
             "support": {
-                "source": "https://github.com/InfyOmLabs/laravel-livewire-tables/tree/master"
+                "source": "https://github.com/clinicapp/laravel-livewire-tables/tree/master"
             },
             "funding": [
                 {

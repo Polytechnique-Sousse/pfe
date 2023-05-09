@@ -22,7 +22,7 @@ You can support us by either sponsoring us or buying one of our paid products. O
 
 ### Buy our Paid Products
 
-[![InfyHMS](https://assets.infyom.com/open-source/new/infyhms-banner.png)](https://1.envato.market/vnPqj3)
+[![ClinicApp](https://assets.infyom.com/open-source/new/ClinicApp-banner.png)](https://1.envato.market/vnPqj3)
 
 You can also check out our other paid products on [CodeCanyon](https://1.envato.market/BXAnR1).
 

@@ -88,7 +88,7 @@ class AuthController extends AppBaseController
 
         $data['token'] = encrypt($data['user']->email.''.$data['user']->id);
 
-        $data['link'] = 'https://infyhmsflutter.page.link/?link=http://com.example.infyhms_flutter/'.$data['token'].'&apn=com.example.infyhms_flutter';
+        $data['link'] = 'https://ClinicAppflutter.page.link/?link=http://com.example.ClinicApp_flutter/'.$data['token'].'&apn=com.example.ClinicApp_flutter';
 
         Mail::to($data['user']->email)
             ->send(new ForgotPasswordMail('emails.forgot_password',
